@@ -27,5 +27,13 @@ public class Cart {
 
    /* @OneToMany(mappedBy = "cart")
     private Set<Item> items;*/
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
 }
 

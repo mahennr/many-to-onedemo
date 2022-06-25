@@ -1,4 +1,4 @@
-package com.java.june21;
+package com.java.june24;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

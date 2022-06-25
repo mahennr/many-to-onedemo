@@ -22,6 +22,22 @@ public class Item {
    // @ManyToOne(cascade=CascadeType.ALL, fetch = FetchType.LAZY)
    //  @JoinColumn(name = "Item_Id")
 
-   @ManyToOne
+    public Double getItemPrice() {
+        return itemPrice;
+    }
+
+    public void setItemPrice(Double itemPrice) {
+        this.itemPrice = itemPrice;
+    }
+
+    public Cart getCart() {
+        return cart;
+    }
+
+    public void setCart(Cart cart) {
+        this.cart = cart;
+    }
+
+    @ManyToOne
    private Cart cart;
 }
